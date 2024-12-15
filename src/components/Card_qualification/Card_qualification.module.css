@@ -1,0 +1,34 @@
+
+.container_certificado{
+    width: 100%;
+    background-color: aliceblue;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    padding: 20px;
+    gap: 30px;
+    flex: 1,1,300px;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 0px ;
+  }
+  
+  .certificado_Card{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  }
+  
+  .certificado_icone{
+    height: 3em;
+  }
+  .certificado_Card>div>h2{
+    font-size: 1em;
+  }
+  
+  

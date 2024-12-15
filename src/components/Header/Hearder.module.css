@@ -1,0 +1,83 @@
+/* herder */
+
+.container_header{
+    margin-top:10px;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    background-color: #3c3c3c;
+    padding: 20px;
+    border-radius: 10px;
+    
+  }
+ 
+  
+  .container_header>nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  @media (max-width: 950px) {
+    .container_header>nav{
+      display: none;
+    }
+
+  }
+  
+  .container_header>img{
+    height: 3em;
+  }
+  
+  
+  .bntNav{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+  
+  
+  
+  .bnt_Contato{
+    display: flex;
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 20px;
+    font-weight: bolder;
+    border-radius: 10px;
+  }
+  .bnt_Contato_icone{
+    height: 20px;
+  }
+
+.MenuFlutuante{
+  
+  gap: 30px;
+  padding: 30px;
+  height: 50vh;
+  background-color: #6200ff;
+  position: fixed;
+  
+  top:0;
+  
+}
+@media (min-width: 940px) {
+  .BntMenu{
+    display: none;
+  }
+
+}

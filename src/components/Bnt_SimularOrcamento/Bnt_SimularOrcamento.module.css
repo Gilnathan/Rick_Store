@@ -1,0 +1,22 @@
+.bnt_Contato_icone{
+    height: 20px;
+  }
+.bnt_Contato{
+    display: flex;
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 20px;
+    font-weight: bolder;
+    border-radius: 10px;
+  }
+.bnt_Contato_icone{
+    height: 20px;
+  }  
