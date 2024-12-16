@@ -3,6 +3,7 @@ import Image from "next/image";
 import { Geist, Geist_Mono } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 
+
 import Header from "@/components/Header";
 import Card_qualification from "@/components/Card_qualification";
 import Bnt_SimularOrcamento from "@/components/Bnt_SimularOrcamento";

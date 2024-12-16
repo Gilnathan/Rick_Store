@@ -3,7 +3,7 @@ import Bnt_SimularOrcamento from "../Bnt_SimularOrcamento"
 
 export default function Sobre(){
     return(
-        <section className={styles.container_Sobre}>
+        <section className={styles.container_Sobre} id="#servicos">
             <div className={styles.card_Sobre_img}>
             <img src="/imagem_assistencia_reparo.jpg" alt="" className={styles.Sobre_img} />
             </div>

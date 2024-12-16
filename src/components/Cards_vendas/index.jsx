@@ -3,7 +3,7 @@ import Bnt_SimularOrcamento from "../Bnt_SimularOrcamento"
 
 export default function Card_vendas(){
     return(
-        <section className={styles.container_Card_vendas}>
+        <section className={styles.container_Card_vendas} id="Aparelhos_Novos">
             
             <div className={styles.Card_vendas_texto}>
                 <h2> Aparelhos novos e usados</h2>

@@ -8,10 +8,12 @@
   flex-direction: column;
   align-items: center;
   gap: 30px;
+  position: relative;
 }
 
 
 .container_title{
+  
   min-height: 60vh;
   width: 100%;
   display: flex;
@@ -20,6 +22,7 @@
   flex-wrap: wrap;
   margin: 30px;
   color: white;
+  margin-top: 100px;
 }
 @media (max-width: 940px) {
   .container_title{
