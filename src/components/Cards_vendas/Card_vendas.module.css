@@ -1,0 +1,48 @@
+.container_Card_vendas{
+    width: 100%;
+    min-height: 50vh;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+@media (max-width:850px) {
+    .container_Card_vendas{
+        flex-wrap: wrap;  
+        justify-content: center;
+    }
+    .container_Card_vendas>div{
+       min-width: 100%;
+    }
+  }
+
+.container_Card_vendas>div{
+    width: 48vw;
+    height: 400px;
+    background-color: white;
+    border-radius: 20px 0px;
+}
+.Card_vendas_img{
+    overflow: hidden;
+}
+.vendas_img{
+    width: 100%; /* Ajusta a largura da imagem para o container */
+    height: 100%; /* Ajusta a altura da imagem para o container */
+    object-fit: cover;
+}
+
+.Card_vendas_texto{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+}
+.Card_vendas_texto>h2{
+    font-size: 2em;
+}
+.Card_vendas_texto>p{
+    font-size: 1em;
+}

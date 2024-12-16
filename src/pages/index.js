@@ -8,6 +8,8 @@ import Card_qualification from "@/components/Card_qualification";
 import Bnt_SimularOrcamento from "@/components/Bnt_SimularOrcamento";
 import Sobre from "@/components/Sobre"
 import Servicos from "@/components/Servicos";
+import Status_loja from "@/components/Status_loja";
+import Card_vendas from "@/components/Cards_vendas"
 
 
 
@@ -49,7 +51,8 @@ export default function Home() {
       <Sobre />
 
       <Servicos />
-      
+      <Status_loja/>
+      <Card_vendas />
       </main>
       
         
