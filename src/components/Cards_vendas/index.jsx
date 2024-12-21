@@ -16,7 +16,7 @@ export default function Card_vendas(){
             </div>
 
             <div className={styles.Card_vendas_img}>
-            <img src="/img-iphones.jpg" alt="" className={styles.vendas_img} />
+            <img src="/img-iphones.png" alt="" className={styles.vendas_img} />
             </div>
 
         </section>
