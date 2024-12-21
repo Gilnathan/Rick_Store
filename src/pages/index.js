@@ -5,6 +5,7 @@ import styles from "@/styles/Home.module.css";
 
 
 import Header from "@/components/Header";
+import Title_main from "@/components/Title_main";
 import Card_qualification from "@/components/Card_qualification";
 import Bnt_SimularOrcamento from "@/components/Bnt_SimularOrcamento";
 import Sobre from "@/components/Sobre"
@@ -37,29 +38,13 @@ export default function Home() {
       <main className={styles.container_main}>
       
       <Header />
-        
-      <section className={styles.container_title}>
-          <div className={styles.title_conteudo} >
-            <h2> Assistêcia técnica Especializada <br /> </h2>
-            <h1> Tá precisando de uma força <br /> com seu dispositivo ? </h1>
-            <p> Caiu, Quebrou, parou de funcionar ?! traga Seu equipamento <br /> para quem realmente entende do Assunto.</p>
-            <Bnt_SimularOrcamento />
-          </div>
-          <img src="/Conserto-de-celular.png" alt="Logo" className={styles.imagem_reparo}/>
-          <Card_qualification />
-      </section>
-      
+      <Title_main />
       <Sobre />
-
       <Servicos />
       <Status_loja/>
       <Card_vendas />
       </main>
-      
-        
-      
-
-
+ 
 
     </>
   );

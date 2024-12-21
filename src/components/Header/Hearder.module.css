@@ -2,11 +2,11 @@
 
 .container_header{
     margin-top:5px;
-    max-width:1200px;
+    max-width:1300px;
     width: 90vw;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     gap: 20px;
     flex-wrap: wrap;
     background-color: #3c3c3cd2;
@@ -15,6 +15,7 @@
     position: absolute;
     position: fixed;
     backdrop-filter: blur(5px);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
   }
  
   
@@ -25,15 +26,11 @@
     gap: 20px;
   }
 
-  @media (max-width: 950px) {
-    .container_header>nav{
-      display: none;
-    }
-
-  }
+  
   
   .container_header>img{
-    height: 3em;
+    height: 2em;
+    cursor: pointer;
   }
   
   
@@ -63,7 +60,7 @@
     border-radius: 10px;
   }
   .bnt_Contato_icone{
-    height: 20px;
+    height: 15px;
   }
 
 .MenuFlutuante{
@@ -82,4 +79,21 @@
     display: none;
   }
 
+}
+
+@media (max-width: 950px) {
+  .container_header>nav{
+    display: none;
+  }
+  
+}
+
+@media (max-width: 1200px) {
+  
+  .bnt_Contato{
+    width: 50px;
+  }
+  .bnt_Contato> span{
+    display: none;
+  }
 }

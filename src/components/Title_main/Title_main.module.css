@@ -1,0 +1,42 @@
+.container_title{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+    flex-wrap: wrap;
+    color: white;
+    margin-top: 100px;
+    border-radius: 20px;
+  }
+  @media (max-width: 940px) {
+    .container_title{
+      justify-content: center; 
+    }
+  
+  }
+  
+  .title_conteudo{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 70vh;
+    
+  }
+  
+  .title_conteudo>h2{
+    font-size: 1.5em;
+  }
+  
+  .title_conteudo>h1{
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .title_conteudo>p{
+    font-size: 20px;
+  }
+  .imagem_reparo{
+    height: 25em;
+    margin: 20px;
+  }
+  
