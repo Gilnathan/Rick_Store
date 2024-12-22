@@ -1,5 +1,6 @@
 import styles from "./Card_vendas.module.css"
 import Bnt_SimularOrcamento from "../Bnt_SimularOrcamento"
+import Carousel from "@/components/Carousel/Carousel"
 
 export default function Card_vendas(){
     return(
@@ -16,7 +17,7 @@ export default function Card_vendas(){
             </div>
 
             <div className={styles.Card_vendas_img}>
-            <img src="/img-iphones.png" alt="" className={styles.vendas_img} />
+            <Carousel />
             </div>
 
         </section>

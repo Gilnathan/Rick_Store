@@ -3,6 +3,13 @@ import Image from "next/image";
 import { Geist, Geist_Mono } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+import { Navigation, Pagination } from 'swiper';
+
+
 
 import Header from "@/components/Header";
 import Title_main from "@/components/Title_main";
@@ -12,7 +19,7 @@ import Sobre from "@/components/Sobre"
 import Servicos from "@/components/Servicos";
 import Status_loja from "@/components/Status_loja";
 import Card_vendas from "@/components/Cards_vendas"
-
+import Carousel from "@/components/Carousel/Carousel"
 
 
 const geistSans = Geist({
@@ -43,6 +50,8 @@ export default function Home() {
       <Servicos />
       <Status_loja/>
       <Card_vendas />
+      
+      
       </main>
  
 
