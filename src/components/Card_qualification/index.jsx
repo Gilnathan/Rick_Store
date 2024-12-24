@@ -2,7 +2,7 @@ import styles  from "./Card_qualification.module.css";
 
 export default function Card(){
     return(
-    <section className={styles.container_certificado}>
+    <section className={styles.container_certificado} >
       
         <div className={styles.certificado_Card}>
             <img src="/reparar.png" alt="Logo" className={styles.certificado_icone}/>
