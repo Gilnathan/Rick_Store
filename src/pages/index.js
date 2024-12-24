@@ -48,9 +48,8 @@ export default function Home() {
       
       <Header />
       <Title_main />
-      <Sobre />
       <Carrossel_img_loja />
-      
+      <Sobre />
       <Servicos />
       <Status_loja/>
       <Card_vendas />
