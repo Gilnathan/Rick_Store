@@ -1,6 +1,5 @@
 .container_Sobre{
     width: 100%;
-    min-height: 50vh;
     display: flex;
     gap: 20px;
     justify-content: space-between;
@@ -19,20 +18,31 @@
 .container_Sobre>div{
     width: 48vw;
     height: 400px;
-    background-color: white;
     border-radius: 20px 0px;
-    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+   
 }
 .card_Sobre_img{
     overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
-.Sobre_img{
-    width: 100%; /* Ajusta a largura da imagem para o container */
-    height: 100%; /* Ajusta a altura da imagem para o container */
+.card_Sobre_img h2 {
+    font-size: 4em;
+}
+.logo{
+    height: 5em; 
     object-fit: cover;
+    
 }
 
 .card_Sobre_texto{
+    
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: column;

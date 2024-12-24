@@ -1,7 +1,7 @@
 import styles from "./Title_main.module.css";
 import Bnt_SimularOrcamento from "@/components/Bnt_SimularOrcamento"
 import Card_qualification from "@/components/Card_qualification"
-
+import Carousel from "../Carousel/Carousel";
 export default  function Title_main(){
 
     return(

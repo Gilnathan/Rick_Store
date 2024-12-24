@@ -20,6 +20,7 @@ import Servicos from "@/components/Servicos";
 import Status_loja from "@/components/Status_loja";
 import Card_vendas from "@/components/Cards_vendas"
 import Carousel from "@/components/Carousel/Carousel"
+import Carrossel_img_loja from "@/components/Carrossel_img_loja/Carrossel_img_loja"
 
 
 const geistSans = Geist({
@@ -41,12 +42,15 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
+      
       <main className={styles.container_main}>
+      
       
       <Header />
       <Title_main />
       <Sobre />
+      <Carrossel_img_loja />
+      
       <Servicos />
       <Status_loja/>
       <Card_vendas />

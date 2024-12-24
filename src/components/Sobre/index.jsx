@@ -5,7 +5,8 @@ export default function Sobre(){
     return(
         <section className={styles.container_Sobre} id="#servicos">
             <div className={styles.card_Sobre_img}>
-            <img src="/imagem_assistencia_reparo.jpg" alt="" className={styles.Sobre_img} />
+            <img src="/logo_Rick.png" alt="Logo" className={styles.logo} />
+            
             </div>
             <div className={styles.card_Sobre_texto}>
                 <h2> Sobre Nós </h2>
