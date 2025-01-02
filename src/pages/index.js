@@ -14,7 +14,7 @@ import { Navigation, Pagination } from 'swiper';
 
 
 
-import Header from "@/components/Header";
+import Topo from "@/components/Topo/Topo";
 import Title_main from "@/components/Title_main";
 import Card_qualification from "@/components/Card_qualification";
 import Bnt_SimularOrcamento from "@/components/Bnt_SimularOrcamento";
@@ -51,7 +51,7 @@ export default function Home() {
       <main className={styles.container_main}>
       
       
-      <Header />
+      <Topo />
       <Title_main />
       <Carrossel_img_loja />
       <Sobre />

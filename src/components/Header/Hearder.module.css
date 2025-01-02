@@ -2,7 +2,6 @@
 
 .container_header{
     margin-top:5px;
-    max-width:1300px;
     width: 90vw;
     display: flex;
     align-items: center;
@@ -11,7 +10,7 @@
     flex-wrap: wrap;
     background-color: #3c3c3cd2;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 5px;
     position: absolute;
     position: fixed;
     backdrop-filter: blur(5px);
@@ -91,10 +90,7 @@
 
 @media (max-width: 1200px) {
   
-  .bnt_Contato{
-    width: 50px;
-  }
-  .bnt_Contato> span{
+  .container_header{
     display: none;
   }
 }
