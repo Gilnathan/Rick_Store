@@ -2,6 +2,7 @@
 
 .container_header{
     margin-top:5px;
+    max-width:1500px;
     width: 90vw;
     display: flex;
     align-items: center;
