@@ -7,7 +7,7 @@ export default function Card_vendas(){
         <section className={styles.container_Card_vendas} id="Aparelhos_Novos">
             
             <div className={styles.Card_vendas_texto}>
-                <h2> Aparelhos novos e usados</h2>
+                <h2> Aparelhos Novos e Usados</h2>
                 <p>
                 sua assistência técnica de confiança! Estamos aqui para cuidar dos seus dispositivos com profissionalismo, rapidez e qualidade. Nossa missão é garantir que seus equipamentos estejam sempre funcionando como novos. <br/ >
                 
