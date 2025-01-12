@@ -8,8 +8,10 @@
     gap: 30px;
     justify-content: center;
     padding: 20px;
+    padding-top: 100px;
     border-radius: 20px;
-    min-height: 100vh
+    min-height: 100vh;
+    
 }
 
 .container_servicos>div{

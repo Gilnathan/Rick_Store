@@ -1,46 +1,50 @@
-import { motion } from 'framer-motion'; // Importando o Framer Motion
+import { motion } from "framer-motion"; // Importando o Framer Motion
 import styles from "./servicos.module.css";
+import Status_loja from "@/components/Status_loja";
+import useScreenSize from "@/hooks/useScreenSize"; // Hook para detectar mobile
 
 export default function Servicos() {
+  const isMobile = useScreenSize(); // Detecta se o dispositivo é mobile
+
   return (
     <motion.section
       className={styles.container_servicos}
       id="Section_servicos"
-      initial={{ opacity: 0 }}
-      whileInView={{ opacity: 1 }} // A animação só acontece quando estiver visível na tela
+      initial={isMobile ? {} : { opacity: 0 }}
+      whileInView={isMobile ? {} : { opacity: 1 }}
       transition={{ duration: 1 }}
     >
-      {/* Animando o título */}
+      {/* Título */}
       <motion.h1
         className={styles.titulo}
-        initial={{ opacity: 0, y: -20 }}  // Começa invisível e um pouco acima
-        whileInView={{ opacity: 1, y: 0 }}    // Animação só acontece quando estiver visível
-        transition={{ duration: 1, delay: 0.2 }} // Atraso para dar ênfase
+        initial={isMobile ? {} : { opacity: 0, y: -20 }}
+        whileInView={isMobile ? {} : { opacity: 1, y: 0 }}
+        transition={{ duration: 1, delay: 0.2 }}
       >
         Serviços
       </motion.h1>
 
-      {/* Animando o parágrafo */}
+      {/* Parágrafo */}
       <motion.p
-        initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }} // Só aparece quando estiver na tela
+        initial={isMobile ? {} : { opacity: 0 }}
+        whileInView={isMobile ? {} : { opacity: 1 }}
         transition={{ duration: 1, delay: 0.4 }}
       >
         Realizamos todos os serviços para seu aparelho. Nossa missão é deixá-lo novo de novo.
       </motion.p>
 
-      <div>
+      <div className={styles.cards_container}>
+        {/* Cards à esquerda */}
         <motion.div
           className={styles.container_cards_left}
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }} // Só aparece quando estiver na tela
+          initial={isMobile ? {} : { opacity: 0 }}
+          whileInView={isMobile ? {} : { opacity: 1 }}
           transition={{ duration: 1, delay: 0.6 }}
         >
-          {/* Animando os cards à esquerda */}
           <motion.div
             className={styles.servicos_card}
-            initial={{ opacity: 0, x: -100 }}  // Começa da esquerda
-            whileInView={{ opacity: 1, x: 0 }}     // Só anima quando entra na tela
+            initial={isMobile ? {} : { opacity: 0, x: -100 }}
+            whileInView={isMobile ? {} : { opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
           >
             <h2>Reparo de Placa</h2>
@@ -51,8 +55,8 @@ export default function Servicos() {
 
           <motion.div
             className={styles.servicos_card}
-            initial={{ opacity: 0, x: -100 }}
-            whileInView={{ opacity: 1, x: 0 }} // Só anima quando entra na tela
+            initial={isMobile ? {} : { opacity: 0, x: -100 }}
+            whileInView={isMobile ? {} : { opacity: 1, x: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
           >
             <h2>Troca de outros componentes</h2>
@@ -63,8 +67,8 @@ export default function Servicos() {
 
           <motion.div
             className={styles.servicos_card}
-            initial={{ opacity: 0, x: -100 }}
-            whileInView={{ opacity: 1, x: 0 }} // Só anima quando entra na tela
+            initial={isMobile ? {} : { opacity: 0, x: -100 }}
+            whileInView={isMobile ? {} : { opacity: 1, x: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
           >
             <h2>Troca de carcaça</h2>
@@ -74,27 +78,27 @@ export default function Servicos() {
           </motion.div>
         </motion.div>
 
-        {/* Imagem animada */}
+        {/* Imagem central */}
         <motion.img
           src="/iphone_quebrado.png"
-          alt=""
+          alt="iPhone quebrado"
           className={styles.img_iphone_quebrado}
-          initial={{ opacity: 0, scale: 0.8 }}
-          whileInView={{ opacity: 1, scale: 1 }} // A animação só acontece quando a imagem entra na tela
+          initial={isMobile ? {} : { opacity: 0, scale: 0.8 }}
+          whileInView={isMobile ? {} : { opacity: 1, scale: 1 }}
           transition={{ duration: 1, delay: 0.6 }}
         />
 
+        {/* Cards à direita */}
         <motion.div
           className={styles.container_cards_right}
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }} // Só anima quando entra na tela
+          initial={isMobile ? {} : { opacity: 0 }}
+          whileInView={isMobile ? {} : { opacity: 1 }}
           transition={{ duration: 1, delay: 0.8 }}
         >
-          {/* Animando os cards à direita */}
           <motion.div
             className={styles.servicos_card}
-            initial={{ opacity: 0, x: 100 }}  // Começa da direita
-            whileInView={{ opacity: 1, x: 0 }} // Só anima quando entra na tela
+            initial={isMobile ? {} : { opacity: 0, x: 100 }}
+            whileInView={isMobile ? {} : { opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
           >
             <h2>Troca de Vidro traseiro</h2>
@@ -105,8 +109,8 @@ export default function Servicos() {
 
           <motion.div
             className={styles.servicos_card}
-            initial={{ opacity: 0, x: 100 }}
-            whileInView={{ opacity: 1, x: 0 }} // Só anima quando entra na tela
+            initial={isMobile ? {} : { opacity: 0, x: 100 }}
+            whileInView={isMobile ? {} : { opacity: 1, x: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
           >
             <h2>Troca da Bateria</h2>
@@ -117,8 +121,8 @@ export default function Servicos() {
 
           <motion.div
             className={styles.servicos_card}
-            initial={{ opacity: 0, x: 100 }}
-            whileInView={{ opacity: 1, x: 0 }} // Só anima quando entra na tela
+            initial={isMobile ? {} : { opacity: 0, x: 100 }}
+            whileInView={isMobile ? {} : { opacity: 1, x: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
           >
             <h2>Troca de Tela</h2>
@@ -128,6 +132,7 @@ export default function Servicos() {
           </motion.div>
         </motion.div>
       </div>
+      <Status_loja />
     </motion.section>
   );
 }

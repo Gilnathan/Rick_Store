@@ -20,7 +20,6 @@ import Card_qualification from "@/components/Card_qualification";
 import Bnt_SimularOrcamento from "@/components/Bnt_SimularOrcamento";
 import Sobre from "@/components/Sobre"
 import Servicos from "@/components/Servicos";
-import Status_loja from "@/components/Status_loja";
 import Card_vendas from "@/components/Cards_vendas"
 import Carousel from "@/components/Carousel/Carousel"
 import Carrossel_img_loja from "@/components/Carrossel_img_loja/Carrossel_img_loja"
@@ -56,7 +55,6 @@ export default function Home() {
       <Carrossel_img_loja />
       <Sobre />
       <Servicos />
-      <Status_loja/>
       <Card_vendas />
       
       
