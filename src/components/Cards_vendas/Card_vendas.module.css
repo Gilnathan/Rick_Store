@@ -30,7 +30,7 @@
 }
 .vendas_img{
     width: 100%; /* Ajusta a largura da imagem para o container */
-    height: 100%; /* Ajusta a altura da imagem para o container */
+    min-height: 100%; /* Ajusta a altura da imagem para o container */
     object-fit: cover;
 }
 

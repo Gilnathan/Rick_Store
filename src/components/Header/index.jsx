@@ -11,7 +11,7 @@ export default function Heard(){
                 
                 <a href="#Section_servicos" className={styles.bntNav}>Serviços</a>
                 <a href="#Aparelhos_Novos" className={styles.bntNav}>Novos e Usados</a>
-                <a href="#" className={styles.bntNav}>Endereço</a>
+                <a href="#Local" className={styles.bntNav}>Endereço</a>
                 <a href="#" className={styles.bntNav}>Dividas Frequentes</a>
                 
             </nav>

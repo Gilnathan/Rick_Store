@@ -32,7 +32,7 @@ const Sidebar = () => {
             </a>
           </li>
           <li className={styles.navItem}>
-            <a href="#" className={styles.navLink} onClick={closeSidebar}>
+            <a href="#Local" className={styles.navLink} onClick={closeSidebar}>
               Endereço
             </a>
           </li>

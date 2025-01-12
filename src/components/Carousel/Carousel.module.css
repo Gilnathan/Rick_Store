@@ -37,7 +37,7 @@
 
   .slide img {
     width: 100%;
-    max-height: 100%;
+    height: 100%;
     object-fit: cover; /* Ajusta a imagem para cobrir o slide sem distorcer */
     border-radius: 8px; /* Aplica bordas arredondadas à imagem */
     transition: transform 0.3s ease; /* Adiciona um efeito suave para interações */
