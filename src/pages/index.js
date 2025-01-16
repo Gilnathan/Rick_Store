@@ -13,7 +13,6 @@ import { Navigation, Pagination } from 'swiper';
 
 
 
-
 import Topo from "@/components/Topo/Topo";
 import Title_main from "@/components/Title_main";
 import Card_qualification from "@/components/Card_qualification";
@@ -48,7 +47,10 @@ export default function Home() {
 
         
       </Head>
-      
+      <div className={styles.container}>
+
+      <img src="/imagens/loja.png" alt="Imagem de uma assistência técnica" className={styles.img_assistencia} />
+    
       <main className={styles.container_main}>
       
       
@@ -59,8 +61,10 @@ export default function Home() {
       <Servicos />
       <Card_vendas />
       <Local />
-      
       </main>
+      </div>
+      
+      
  
 
     </>

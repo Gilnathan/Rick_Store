@@ -5,8 +5,8 @@ export default function Heard(){
     return (
 
         <header className={styles.container_header}>
-            <img src="/logo_Rick.png" alt="Logo" className={styles.logo} />
-            
+            <a href="#"><img src="/logo_Rick.png" alt="Logo" className={styles.logo} />
+            </a>
             <nav className={styles.Nav_bar}> 
                 
                 <a href="#Section_servicos" className={styles.bntNav}>Serviços</a>

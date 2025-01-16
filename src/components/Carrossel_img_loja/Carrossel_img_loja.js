@@ -21,9 +21,8 @@ const Carrossel_img_loja = () => {
           disableOnInteraction: false, // O autoplay não será desativado se o usuário interagir
         }}
       >
-        <SwiperSlide className={styles.slide}> <img src="imagens/assistencia-1.png" alt=""/> </SwiperSlide>
+        <SwiperSlide className={styles.slide}> <img src="imagens/promo1.png" alt=""/> </SwiperSlide>
         <SwiperSlide className={styles.slide}> <img src="imagens/assistencia-2.png" alt=""/> </SwiperSlide>
-        <SwiperSlide className={styles.slide}> <img src="imagens/assistencia-3.png" alt=""/> </SwiperSlide>
         
       </Swiper>
     </div>

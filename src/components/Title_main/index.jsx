@@ -7,7 +7,7 @@ export default function Title_main() {
   return (
     <section className={styles.container_title}>
       <div className={styles.title_conteudo}>
-        <h2> Assistência técnica Especializada <br /> </h2>
+        <h2> Assistência técnica Especializada <br /> e Produtos de Qualidade </h2>
         <h1> Tá precisando de uma força <br /> com seu dispositivo ? </h1>
         <p> Caiu, Quebrou, parou de funcionar ?! Traga seu equipamento <br /> para quem realmente entende do Assunto.</p>
         <Bnt_SimularOrcamento />

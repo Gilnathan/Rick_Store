@@ -11,6 +11,7 @@
     padding-top: 100px;
     border-radius: 20px;
     min-height: 100vh;
+    overflow: hidden;
     
 }
 
@@ -19,7 +20,6 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    gap: 20px;
 }
 .titulo{
     font-size: 3em;
@@ -27,6 +27,7 @@
 
 .img_iphone_quebrado{
     height: 30em;
+    margin: 20px;
 }
 
 @media (max-width:850px) {
@@ -45,6 +46,7 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
+    
   }
 
 .container_cards_left>div,.container_cards_right>div{
@@ -56,8 +58,9 @@
     padding: 10px;
     gap: 10px;
     border-radius: 10px 0px;
+    
 }
-@media (max-width:450px){
+@media (max-width:850px){
     .container_cards_left>div,.container_cards_right>div{
         font-size: 0.8em;
         width: 200px;
@@ -65,5 +68,20 @@
     .container_servicos{
         justify-content: center;
     }
-
+    .container_cards_right>div{
+        width: 40vw;
+        border-bottom: 1px solid rgb(255, 255, 255);
+        height: 200px;
+        text-align: start;
+        background-color: rgb(31, 22, 22);
+        margin: 5px;
+    }
+    .container_cards_left>div{
+        width: 50vw;
+        border-bottom: 1px solid rgb(255, 255, 255);
+        height: 200px;
+        text-align: start;
+        background-color: rgb(31, 22, 22);
+        margin: 5px;
+    }
 }

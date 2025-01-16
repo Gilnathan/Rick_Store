@@ -17,7 +17,7 @@
 
 .container_Sobre>div{
     width: 48vw;
-    height: 400px;
+    
     border-radius: 20px 0px;
    
 }
@@ -49,6 +49,7 @@
     justify-content: center;
     padding: 20px;
     gap: 20px;
+    height: 400px;
 }
 .card_Sobre_texto>h2{
     font-size: 2em;
@@ -56,3 +57,10 @@
 .card_Sobre_texto>p{
     font-size: 1em;
 }
+
+@media screen and (max-width: 768px) {
+    
+    .card_Sobre_img{ 
+        height: 200px;
+    }
+ }

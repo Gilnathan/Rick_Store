@@ -9,10 +9,12 @@ export default function Card_vendas(){
             <div className={styles.Card_vendas_texto}>
                 <h2> Aparelhos Novos e Usados</h2>
                 <p>
-                sua assistência técnica de confiança! Estamos aqui para cuidar dos seus dispositivos com profissionalismo, rapidez e qualidade. Nossa missão é garantir que seus equipamentos estejam sempre funcionando como novos. <br/ >
-                
-                Com uma equipe altamente qualificada e experiência em consertos de smartphones, computadores, tablets e outros eletrônicos, a Rick Store combina tecnologia de ponta com um atendimento personalizado.
-                </p>
+                Procurando um novo aparelho? Temos a solução perfeita para você!
+
+Vendemos dispositivos novos e usados de qualidade, com garantia de confiança. Além disso, aceitamos o seu aparelho antigo como parte do pagamento, facilitando ainda mais sua troca.
+
+Renove seu dispositivo sem complicação e com economia! Venha conferir nossas opções. 
+               </p>
                 <Bnt_SimularOrcamento />
             </div>
 

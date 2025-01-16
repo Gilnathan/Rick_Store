@@ -8,7 +8,7 @@
     flex-direction: column;
     color: white;
     position: relative;
-    background-color: rgba(0, 0, 0, 0.753);
+    margin-bottom: 100px;
 }
 
 .Title_Local{
@@ -20,11 +20,11 @@
     
 }
 .imagem_map{
-    width: 800px;
+    width: 600px;
     position: absolute;
     z-index: -991;
     top: 0px;
-    right: -120px;
+    right: 0px;
 }
 
 .Title_Local>h1{
@@ -58,11 +58,11 @@
         font-size: 2rem;
     }
     .imagem_map{
-        width: 400px;
+        width: 300px;
         position: absolute;
         z-index: -991;
         top: 0px;
-        right: -50px;
+        right: 0px;
     }
     .Container_Mapa{
         flex-wrap: wrap;
