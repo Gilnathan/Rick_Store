@@ -15,7 +15,7 @@
   color: #ffffff;
   border-radius: 8px; /* Borda arredondada */
   height: 400px; /* Altura dos slides */
-  
+  position: relative;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
@@ -46,4 +46,31 @@
     height: 200px; /* Diminui a altura dos slides */
   }
   
+}
+
+.Bnt_fazerPedido{
+  display: flex;
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 20px;
+    font-weight: bolder;
+    border-radius: 10px;
+    position: absolute;
+    left: 12%;
+    top: 60%;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.Bnt_fazerPedido:hover{
+  transform: scale(110%);
+  box-shadow: rgba(0, 0, 0, 0.219) 0px 5px 15px;
 }

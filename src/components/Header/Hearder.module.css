@@ -29,7 +29,7 @@
   
   
   .container_header>a>img{
-    height: 2em;
+    height: 1.5em;
     cursor: pointer;
   }
   
@@ -99,4 +99,9 @@
   .bnt_Contato>span{
     display: none;
   }
+}
+.bnt_Contato:hover{
+  transition: 0.5s;
+  transform: scale(102%);
+  box-shadow: rgba(0, 0, 0, 0.219) 0px 5px 15px;
 }

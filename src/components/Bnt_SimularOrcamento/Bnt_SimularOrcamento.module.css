@@ -19,4 +19,10 @@
   }
 .bnt_Contato_icone{
     height: 20px;
-  }  
+  }   
+
+.bnt_Contato:hover{
+  transition: 0.5s;
+  transform: scale(102%);
+  box-shadow: rgba(0, 0, 0, 0.219) 0px 5px 15px;
+}

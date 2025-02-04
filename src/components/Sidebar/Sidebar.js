@@ -38,7 +38,7 @@ const Sidebar = () => {
           </li>
           <li className={styles.navItem}>
             <a href="#" className={styles.navLink} onClick={closeSidebar}>
-              Dividas Frequentes
+              Contatos
             </a>
           </li>
          

@@ -3,7 +3,7 @@ import styles from "./Bnt_SimularOrcamento.module.css"
 export default function Bnt_SimularOrcamento(){
     return(
         <>
-            <a href="#" className={styles.bnt_Contato}> <img src="/whatsapp.png" alt="Logo" className={styles.bnt_Contato_icone}/> Simular Orçamento </a>
+            <a href='https://wa.me/5573981879787?text=' target='_black' className={styles.bnt_Contato}> <img src="/whatsapp.png" alt="Logo" className={styles.bnt_Contato_icone}/> Simular Orçamento </a>
         </>
     )
 }
