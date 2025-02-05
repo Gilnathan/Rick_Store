@@ -23,7 +23,7 @@ import Card_vendas from "@/components/Cards_vendas"
 import Carousel from "@/components/Carousel/Carousel"
 import Carrossel_img_loja from "@/components/Carrossel_img_loja/Carrossel_img_loja"
 import Local from "@/components/Local";
-
+import Contatos from "@/components/Contatos";
 
 
 const geistSans = Geist({

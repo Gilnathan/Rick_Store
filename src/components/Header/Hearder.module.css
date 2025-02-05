@@ -29,7 +29,6 @@
   
   
   .container_header>a>img{
-    height: 1.5em;
     cursor: pointer;
   }
   
@@ -104,4 +103,12 @@
   transition: 0.5s;
   transform: scale(102%);
   box-shadow: rgba(0, 0, 0, 0.219) 0px 5px 15px;
+}
+
+.logo{
+  height: 2.5em;
+  cursor: pointer;
+}
+.bnt_Contato_icone{
+  height: 1.3em;
 }

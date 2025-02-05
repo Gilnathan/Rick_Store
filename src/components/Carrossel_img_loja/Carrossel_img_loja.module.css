@@ -45,13 +45,15 @@
   .slide {
     height: 200px; /* Diminui a altura dos slides */
   }
-  
+  .Bnt_fazerPedido{
+    max-height: 15%;
+  }
 }
 
 .Bnt_fazerPedido{
-  display: flex;
-    width: 300px;
-    height: 50px;
+    display: flex; 
+    height: 5em;
+    width: 15em;
     padding: 10px;
     background-color: red;
     color: white;
@@ -62,12 +64,13 @@
     justify-content: center;
     gap: 20px;
     font-weight: bolder;
-    border-radius: 10px;
+    border-radius: 5px;
     position: absolute;
     left: 12%;
     top: 60%;
     transition: 0.5s;
     cursor: pointer;
+    text-transform: uppercase;
 }
 
 .Bnt_fazerPedido:hover{
