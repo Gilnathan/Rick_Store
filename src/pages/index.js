@@ -40,7 +40,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Rick Store</title>
+        <title>Rick Store - Assistência Técnica em Itabela e Guaratinga | Conserto de Celulares</title>
         <meta name="description" content="Assistência técnica especializada em Itabela-BA e Guaratinga-BA! Consertamos celulares, tablets e notebooks, realizamos troca de tela, venda de aparelhos novos e seminovos, além de acessórios. Serviço rápido, confiável e com garantia. Traga seu dispositivo para o melhor atendimento da região!" />
         <meta name="keywords" content="Assistência técnica Itabela, Conserto de celular Guaratinga, Troca de tela, Assistência de notebook, Venda de celulares" />
         <meta name="author" content="Nome da sua assistência" />
