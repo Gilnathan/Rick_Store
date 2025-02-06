@@ -1,4 +1,5 @@
 ![6d519ff0dec](https://github.com/user-attachments/assets/7bfc77e0-571f-4e3d-a85c-c7f228a89eb8)
+
 Rick_Store - Landing Page para Assistência Técnica
 Rick_Store é uma landing page desenvolvida para promover uma assistência técnica, destacando seus serviços e facilitando o contato com os clientes. A página foi projetada para oferecer uma navegação intuitiva, garantindo uma ótima experiência para o usuário.
 
@@ -8,11 +9,15 @@ CSS - Estilização customizada, incluindo layouts adaptáveis a diferentes disp
 JavaScript - Funcionalidades interativas para uma navegação dinâmica.
 Next.js - Framework React para otimização de desempenho e navegação rápida.
 PostCSS - Processamento de CSS para melhor desempenho.
+
+
 Funcionalidades
 Exibição clara e objetiva dos serviços oferecidos pela assistência técnica.
 Formulário de contato para facilitar a interação com os clientes.
 Design responsivo, garantindo ótima visualização em desktops, tablets e dispositivos móveis.
 Performance otimizada para uma navegação rápida e eficiente.
+
+
 Como Rodar o Projeto
 Clone o repositório:
 bash
