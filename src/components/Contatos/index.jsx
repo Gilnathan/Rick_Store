@@ -24,7 +24,7 @@ export default function Contatos(){
                         </div>
                         <h1 className={styles.tituloContatos}> cnpj : 41.805.560/0001-09</h1>
                     </div>
-                    <img src="imagens/call-center.webp" alt="" className={styles.imgContatos}/>
+                   
                 </div>
             </section>
     )
