@@ -47,7 +47,10 @@
     position: relative;
     
 }
-.Mapa1,.Mapa2>iframe{
+.Mapa1>iframe{
+    border-radius: 5px;
+}
+.Mapa2>iframe{
     border-radius: 5px;
 }
 .NameCity>p{

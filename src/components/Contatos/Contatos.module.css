@@ -1,37 +1,62 @@
-.Container_Contatos{
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+
+
+.ContainerContatos{
     width: 100vw;
-    min-height: 50vh;
-    background-color: rgb(255, 255, 255);
+    background-color:#19171c;
+    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+    font-family: "Manrope", serif;
+    font-weight: 100;
+    
+}
+.tituloContatos{
+    font-size: 1em;
+    text-transform: uppercase;
+    
 }
 .Contatos{
-    width: 40%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-family: Arial, Helvetica, sans-serif;
-    flex-direction: row;
-}
-.Contatos>div{
+    width: 90vw;
+    max-width:1500px;
+    height: 300px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 10px;
+    justify-content: flex-start;
+    padding: 30px;
 }
 
-.Contatos h1{
-    font-size: 2rem;
-    color: rgb(0, 0, 0);
-}
-.Contatos_Itabela,.Contatos_Guaratinga{
-    width: 50%;
+.CRedesSociais{
+    height: 100%;
     display: flex;
     flex-direction: column;
-    gap: 10px;
     text-align: start;
+    justify-content: center;
+    gap: 20px;
+}
 
+.Cidades{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+}
+.Cidades>div>h2{
+    text-transform: lowercase;
+    font-weight: 100;
+    font-size: 1em;
+    font-weight: 400;
+}
+.Cidades>div>h1{
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+.imgContatos{
+    height: 100%;
+    object-fit: cover;
+    
 }

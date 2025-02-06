@@ -37,7 +37,7 @@ const Sidebar = () => {
             </a>
           </li>
           <li className={styles.navItem}>
-            <a href="#" className={styles.navLink} onClick={closeSidebar}>
+            <a href="#contatos" className={styles.navLink} onClick={closeSidebar}>
               Contatos
             </a>
           </li>

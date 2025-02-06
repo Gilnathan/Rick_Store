@@ -21,7 +21,7 @@ const Carrossel_img_loja = () => {
           disableOnInteraction: false, // O autoplay não será desativado se o usuário interagir
         }}
       >
-        <SwiperSlide className={styles.slide}> <img src="imagens/promo1.png" alt=""/> </SwiperSlide>
+        
         <SwiperSlide className={styles.slide}> <img src="imagens/promo2.png" alt=""/> </SwiperSlide>
         <SwiperSlide className={styles.slide}> <img src="imagens/promo3.png" alt=""/> <a href='https://wa.me/5573981879787?text=' target='_black' >  <button className={styles.Bnt_fazerPedido}> Fazer Pedido </button> </a> </SwiperSlide>
         <SwiperSlide className={styles.slide}> <img src="imagens/promo4.png" alt=""/> </SwiperSlide>

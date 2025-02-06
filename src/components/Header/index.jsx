@@ -12,10 +12,10 @@ export default function Heard(){
                 <a href="#Section_servicos" className={styles.bntNav}>Serviços</a>
                 <a href="#Aparelhos_Novos" className={styles.bntNav}>Novos e Usados</a>
                 <a href="#Local" className={styles.bntNav}>Endereço</a>
-                <a href="#" className={styles.bntNav}>Contatos</a>
+                <a href="#contatos" className={styles.bntNav}>Contatos</a>
                 
             </nav>
-            <a href='https://wa.me/5555738187978' target='_black' className={styles.bnt_Contato}> <img src="/whatsapp.png" alt="Logo" className={styles.bnt_Contato_icone}/> <span>Fale Conosco</span>  </a>
+            <a href='https://wa.me/5573981879787?text=' target='_black' className={styles.bnt_Contato}> <img src="/whatsapp.png" alt="Logo" className={styles.bnt_Contato_icone}/> <span>Fale Conosco</span>  </a>
 
       </header>
     )

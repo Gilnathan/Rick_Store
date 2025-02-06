@@ -58,7 +58,7 @@
     background-color: rgba(0, 0, 0, 0.863);
     z-index: 999;
   }
-  @media (min-width: 1200px) {
+  @media (min-width: 950px) {
   
     .menuIcon {
       display: none;

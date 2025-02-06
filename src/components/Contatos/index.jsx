@@ -2,29 +2,31 @@ import styles from './Contatos.module.css';
 
 export default function Contatos(){
     return (
-            <div className={styles.Container_Contatos}>
-                <h1>Contatos</h1>
+            <section className={styles.ContainerContatos} id='contatos'>    
                 <div className={styles.Contatos}>
-                
-                <div>
-                    </div> 
-                        <div className={styles.Contatos_Itabela}>
-                            <h2>Itabela</h2>
-                            <h3>whatsapp:</h3>
+                    <div className={styles.CRedesSociais}>
+                        <h1 className={styles.tituloContatos}> Contatos </h1>
+                        <div className={styles.Cidades}>
+                            <div className={styles.itabela}>
+                            <h1>Iatebla</h1>
+                            <h2>whatsapp</h2>
                             <p>+55 73 98187-9787</p>
-                            <h3>Instagram</h3>
-                            <p>@riickstore.itabela</p>
+                            <h2>instagram</h2>  
+                            <p>@Riickstore.Itabela</p>
+                            </div>
+                            <div className={styles.guaratinga}>
+                            <h1>Guaratinga</h1>
+                            <h2>whatsapp</h2>
+                            <p>+55 73 98205-3957</p>
+                            <h2>instagram</h2>
+                            <p>@riickstoree.guaratinga</p>
+                            </div>
                         </div>
-
-                        <div className={styles.Contatos_Guaratinga}>
-                            <h2>Guaratinga</h2>
-                            <h3>whatsapp:</h3>
-                            <p>+55 73 98187-9787</p>
-                            <h3>Instagram</h3>
-                            <p>@riickstore.itabela</p>
-                        </div>
+                        <h1 className={styles.tituloContatos}> cnpj : 41.805.560/0001-09</h1>
                     </div>
+                    <img src="imagens/call-center.webp" alt="" className={styles.imgContatos}/>
                 </div>
+            </section>
     )
     
     

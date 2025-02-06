@@ -24,7 +24,8 @@ import Carousel from "@/components/Carousel/Carousel"
 import Carrossel_img_loja from "@/components/Carrossel_img_loja/Carrossel_img_loja"
 import Local from "@/components/Local";
 import Contatos from "@/components/Contatos";
-
+import VideoSection from "@/components/VideoSection";
+import Rodape from "@/components/Rodape/Rodape";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -60,8 +61,11 @@ export default function Home() {
       <Carrossel_img_loja />
       <Sobre />
       <Servicos />
+      <VideoSection />
       <Card_vendas />
       <Local />
+      <Contatos />
+      <Rodape />
       </main>
       </div>
       

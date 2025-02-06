@@ -22,9 +22,10 @@ const Carousel = () => {
         }}
       >
         <SwiperSlide className={styles.slide}> <img src="/img-iphones.png" alt=""/> </SwiperSlide>
+        <SwiperSlide className={styles.slide}> <img src="/img-iphones1.jpg" alt=""/> </SwiperSlide>
+        <SwiperSlide className={styles.slide}> <img src="/img-iphones2.jpg" alt=""/> </SwiperSlide>
         <SwiperSlide className={styles.slide}> <img src="/loja3.jpg" alt=""/> </SwiperSlide>
-        <SwiperSlide className={styles.slide}> <img src="/aparelho-1.webp" alt=""/> </SwiperSlide>
-        <SwiperSlide className={styles.slide}><img src="/aparelho-2.webp" alt=""/></SwiperSlide>
+        
       </Swiper>
     </div>
   );

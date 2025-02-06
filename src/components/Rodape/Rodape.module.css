@@ -1,0 +1,25 @@
+.rodape{
+    height: 40px;
+    width: 100vw;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.rodape>footer{
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    color: white;
+}
+.GRcode{
+    color: white;
+    margin: 5px;
+}
+.GRcode:hover{
+    color: #00ff00;
+}
