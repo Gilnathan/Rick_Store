@@ -8,7 +8,7 @@ export default function Contatos(){
                         <h1 className={styles.tituloContatos}> Contatos </h1>
                         <div className={styles.Cidades}>
                             <div className={styles.itabela}>
-                            <h1>Iatebla</h1>
+                            <h1>Itabela</h1>
                             <h2>whatsapp</h2>
                             <p>+55 73 98187-9787</p>
                             <h2>instagram</h2>  
