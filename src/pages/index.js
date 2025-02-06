@@ -55,7 +55,7 @@ export default function Home() {
     
       <main className={styles.container_main}>
       
-      
+     
       <Topo />
       <Title_main />
       <Carrossel_img_loja />
