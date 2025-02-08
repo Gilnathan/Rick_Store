@@ -31,7 +31,7 @@
 
 /* Botão Simular Orçamento */
 .bnt_Contato {
-    background: #ff9800;
+    background-color: red;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -42,6 +42,7 @@
     align-items: center;
     gap: 8px;
     transition: 0.3s;
+    font-size: 1.1em;
 }
 
 .bnt_Contato:hover {
