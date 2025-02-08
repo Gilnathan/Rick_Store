@@ -19,9 +19,9 @@ const VideoSection = () => {
       
 
       <ul>
-        <li>✅ Peças de alta qualidade</li>
-        <li>✅ Garantia do serviço</li>
-        <li>✅ Reparo rápido e seguro</li>
+        <li>Peças de alta qualidade</li>
+        <li>Garantia do serviço</li>
+        <li>Reparo rápido e seguro</li>
       </ul>
 
      </div>

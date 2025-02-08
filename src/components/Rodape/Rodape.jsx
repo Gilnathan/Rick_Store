@@ -6,7 +6,7 @@ export default function Rodape(){
                 <footer>
                 <p>&copy; 2025 Riick Store. Todos os direitos reservados.</p>
                 
-                <p>Desenvolvido por  <a href="https://www.instagram.com/grcode.dev/" target='_blank'> <strong className={styles.GRcode}>GRCode.dev</strong> </a></p>
+                <p>Desenvolvido por  <a href="https://www.instagram.com/grcode.dev/" target='_blank'> <strong className={styles.GRcode}>GRCode</strong> </a></p>
                 </footer>
 
         </section>

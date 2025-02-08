@@ -112,3 +112,78 @@
 .bnt_Contato_icone{
   height: 1.3em;
 }
+
+
+/* Fundo escuro com desfoque */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px); /* Efeito de desfoque */
+  z-index: 999;
+}
+
+/* Janela flutuante */
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(20, 20, 20, 0.95);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  z-index: 1000;
+  color: white;
+  width: 300px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Estilização dos botões de WhatsApp */
+.popup_content {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.popup_content>p{
+  
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.popup_link {
+  background: #25D366;
+  color: white;
+  padding: 12px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  transition: 0.3s;
+
+}
+
+.popup_link:hover {
+  background: #1ebe57;
+}
+
+/* Botão de fechar */
+.close_popup {
+  background: red;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close_popup:hover {
+  background: darkred;
+}
+
+
