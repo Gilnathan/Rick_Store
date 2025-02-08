@@ -33,7 +33,7 @@ export default function Heard() {
                     <div className={styles.popup_content}>
                         <p>Escolha um número para contato:</p>
                         <a href="https://wa.me/5573981879787" target="_blank" className={styles.popup_link}>WhatsApp Itabela</a>
-                        <a href="https://api.whatsapp.com/send?phone=5573981392366" target="_blank" className={styles.popup_link}>WhatsApp Quaratinga</a>
+                        <a href="https://api.whatsapp.com/send?phone=5573981392366" target="_blank" className={styles.popup_link}>WhatsApp Guaratinga</a>
                         <button onClick={() => setShowPopup(false)} className={styles.close_popup}>Fechar</button>
                     </div>
                 </div>
